@@ -4,7 +4,7 @@ var browserSync = require('browser-sync'); // browser-syncの読み込み
 gulp.task('browser-sync', function(done){
     browserSync.init({
         server : {
-            baseDir : './src', // 対象となるディレクトリ
+            baseDir : './', // 対象となるディレクトリ
             index : 'index.html', // リロードするHTMLファイル
         },
     });
@@ -18,7 +18,7 @@ gulp.task('reload', function(done){
 
 // ファイル監視
 gulp.task('watch', gulp.series(['browser-sync'], function(done){
-    gulp.watch('./src/*.+(html|js)', gulp.series(['reload']));
+    gulp.watch('./*.+(html|js)', gulp.series(['reload']));
     done();
 }));
 
