@@ -1,0 +1,24 @@
+{
+  "name": "coronav_app_pp",
+  "version": "1.0.0",
+  "description": "コロナアプリのプライバシーポリシー表示用ページ。",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninedril/coronav_app_pp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninedril/coronav_app_pp/issues"
+  },
+  "homepage": "https://github.com/ninedril/coronav_app_pp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}

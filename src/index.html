@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<title>新型コロナウイルス情報アプリ</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<main>
+		<div class="hero-header">
+			<div class="group-text">
+				<div class="subtitle">新型コロナを、アプリで把握</div>
+				<h1 class="title">With コロナ</h1>
+				<div class="heroheader-btn-wrapper">
+					<div class="heroheader-btn-heading">
+						\ ダウンロードはこちら /
+					</div>
+					<div class="heroheader-btn">
+						<img width="185" src="https://cdn.hands.net/static/app/img/top/appstore.png" class="fig"
+							alt="Download on the AppStore">
+					</div>
+				</div>
+			</div>
+			<div class="group-image">
+				<div class="heroheader-img-wrapper">
+					<img class="heroheader-img" src="/assets/smartphone.png" alt="スマホの画像">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="main-cont">
+				<h2>プライバシーポリシー</h2>
+				<div class="privacypolicy">
+					<ul class="privacypolicy-list">
+						<li class="privacypolicy-listitem">
+							<div class="pp-title">利用者情報の取得</div>
+							<div class="pp-desc">本アプリが利用者の個人情報を取得することはありません。<br>
+							</div>
+						</li>
+						<li class="privacypolicy-listitem">
+							<div class="pp-title">利用者情報の利用</div>
+							<div class="pp-desc">
+								本アプリが利用者の個人情報を利用することはありません。<br>ただし、アプリの機能実現のために、位置情報に関する情報を使用端末のストレージ内に限って処理し、かつ一時的に保存する場合があります。
+							</div>
+						</li>
+						<li class="privacypolicy-listitem">
+							<div class="pp-title">利用者情報の第三者提供</div>
+							<div class="pp-desc">本アプリが利用者の個人情報を第三者に提供することはありません。
+							</div>
+						</li>
+						<li class="privacypolicy-listitem">
+							<div class="pp-title">使用ツール</div>
+							<div class="pp-desc">
+								Firebase・Google
+								Analyticsを用いて、匿名によるクラッシュログ等の収集を行っています。このデータは外部（Firebase等）に送信されますが、個人を特定できないという意味で個人情報ではありません。
+								<a class="pp-externallink" href="https://firebase.google.com/policies/analytics?hl=ja"
+									target="_blank">Firebase プライバシーポリシー</a>
+								<a class="pp-externallink"
+									href="https://support.google.com/analytics/answer/6004245?hl=ja"
+									target="_blank">Google Analytics
+									プライバシーポリシー</a>
+							</div>
+						</li>
+						<li class="privacypolicy-listitem">
+							<div class="pp-title">お問い合わせ</div>
+							<div class="pp-desc">
+								なにかご不明な点等ございましたら、下記アドレスまで遠慮なくお問い合わせ下さい。<br>
+								<a href="mailto:with.covid-19@ventilator.co.jp">with.covid-19@ventilator.co.jp</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer">
+			<div class="footer-logo">
+				<img class="footer-logo-img" src="/assets/ventilator_logo.png" alt="Ventilatorのロゴ">
+			</div>
+			<div class="copyright">
+				<small>Copyright © Ventilator, Inc All Rights Reserved.</small>
+			</div>
+		</div>
+	</footer>
+
+	<style>
+		body {
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 14px;
+			margin: 0;
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 2rem;
+			background-color: #333;
+			margin-right: 15px;
+			margin-left: 15px;
+			padding: 10px 10px;
+			border-radius: 4px;
+			color: #fff;
+		}
+
+		.hero-header {
+			padding: 45px;
+			background-color: #0097a7;
+			color: #fff;
+			height: 100vh;
+			display: flex;
+		}
+
+		.subtitle {
+			font-size: 2rem;
+		}
+
+		.title {
+			font-size: 4.5rem;
+		}
+
+		.heroheader-img {
+			max-width: 400px;
+			max-height: 100vh;
+		}
+
+		.group-image {
+			flex-basis: 400px;
+		}
+
+		.group-text {
+			flex: 1;
+			padding: 30px;
+			text-align: center;
+		}
+
+		.heroheader-btn-heading {
+			display: inline-block;
+			font-size: 1.2rem;
+			height: 2rem;
+			color: #fff;
+			margin-bottom: 17px;
+		}
+
+		.pp-title {
+			font-weight: bold;
+			font-size: 1.2rem;
+		}
+
+		.privacypolicy-listitem {
+			margin: 15px 0;
+		}
+
+		.pp-desc {
+			color: #353535;
+		}
+
+		.footer {
+			text-align: center;
+			border-top: 1px solid #e4e4e4;
+			padding: 30px 15px;
+		}
+
+		img.footer-logo-img {
+			width: 160px;
+		}
+
+		.copyright {
+			color: #666;
+		}
+
+
+		@media screen and (max-width: 1024px) {
+
+			.heroheader-img {
+				position: absolute;
+				width: 67vw;
+				max-width: none;
+				left: 50%;
+				top: 28rem;
+				transform: translateX(-50%);
+				height: auto;
+				max-height: none;
+			}
+
+			.hero-header {
+				position: relative;
+				overflow: hidden;
+				flex-direction: column;
+			}
+
+			.title {
+				font-size: 5rem;
+			}
+		}
+	</style>
+</body>
+
+</html>
